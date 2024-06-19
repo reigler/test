@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Brightness and Contrast Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="container">
+            <h1>Brightness Checker</h1>
+            <div class="input-group">
+                <h3>RGB Input</h3>
+                <input type="text" id="rgbInput1" placeholder="Enter RGB (e.g., 255,0,0)">
+            </div>
+            <div class="input-group">
+                <h3>Hex Input</h3>
+                <input type="text" id="hexInput1" placeholder="Enter Hex (e.g., #ff0000 or ff0000)">
+            </div>
+            <div class="input-group">
+                <h3>CMYK Input</h3>
+                <input type="text" id="cmykInput1" placeholder="Enter CMYK (e.g., 0,19,93,0)">
+            </div>
+            <button id="checkBrightnessBtn1">Check Brightness</button>
+            <div id="output1"></div>
+            <div id="colorSquare1"></div>
+        </div>
+
+        <div class="container">
+            <h1>Contrast Checker</h1>
+            <button id="checkContrastBtn" disabled>Check Contrast</button>
+            <div id="contrastOutput" class="contrast-output"></div>
+        </div>
+
+        <div class="container">
+            <h1>Brightness Checker</h1>
+            <div class="input-group">
+                <h3>RGB Input</h3>
+                <input type="text" id="rgbInput2" placeholder="Enter RGB (e.g., 255,0,0)">
+            </div>
+            <div class="input-group">
+                <h3>Hex Input</h3>
+                <input type="text" id="hexInput2" placeholder="Enter Hex (e.g., #ff0000 or ff0000)">
+            </div>
+            <div class="input-group">
+                <h3>CMYK Input</h3>
+                <input type="text" id="cmykInput2" placeholder="Enter CMYK (e.g., 0,19,93,0)">
+            </div>
+            <button id="checkBrightnessBtn2">Check Brightness</button>
+            <div id="output2"></div>
+            <div id="colorSquare2"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

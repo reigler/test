@@ -1,0 +1,94 @@
+/* Rest of your existing CSS styles */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Added gap between containers */
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 15px;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+#output1, #output2 {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#colorSquare1, #colorSquare2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto; /* Center the color square */
+    border: 2px solid; /* Add border */
+}
+
+#colorSquare1 {
+    border-color: white; /* Set initial border color */
+}
+
+#colorSquare2 {
+    border-color: white; /* Set initial border color */
+}
+
+.contrast-output {
+    margin-top: 20px; /* Added space above the contrast output */
+}
